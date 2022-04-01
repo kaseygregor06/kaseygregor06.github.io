@@ -3,9 +3,12 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Savory</title>
+    <!-- Added viewport settings to make it work on a mobile phone. Don't worry about it; just copy and paste -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Changed title to my name. The title will show up in the browser tab! -->
+    <title>Andy L</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   </head>
@@ -15,19 +18,18 @@
     <div class="container">
 
       <header>
-        <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/savory.svg" class="logo">
+        <div class="wrapper">
+          <h1>Kasey Gregor</h1>
+          <p class="bio">
+            I am a double major, in English and Professional and Technical Writing. I love dogs of all sizes- except maybe those small, annoying white ones. I am an avid eater of ice cream and pizza. This site collects some of my digital media-related coursework."
+          </p>
+          <div class="buttonBox">
+            <a class="myButton"href="#projects">Go</a>
+          </div>
+        </div>
       </header>
 
-      <main>
-        <div class="recipe a">
-          <h2>TikTok's Influence on Society</h2>
-          <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/time.svg" class="time" />
-          <p class="mins">6 min read</p>
-          <p class="description">Have you ever wondered about how Tiktok may be affecting younger generations? This blog post will give you a brief view into how Tiktok influences peoples everyday lives.
-          <a href="https://medium.com/p/aa39ca1c2f94/edit"></a>
-        </p>
-        </div>
-
+      <main id="projects">
         <div class="recipe a">
           <img src="https://content.codecademy.com/courses/learn-css-grid/lesson-ii/image-1.png" />
           <h2>CHOCOLATE MOUSSE</h2>
