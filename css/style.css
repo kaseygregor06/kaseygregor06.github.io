@@ -44,7 +44,7 @@ main {
 
 /* Added h1 definition. Notice the font size calculation. This calc sets the font size at AT LEAST 1.93em, then adds 2% of the view width per character (approx.) */
 h1 {
-  font-family: Titillium Web; serif;
+  font-family: 'Titillium Web', serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-family: Titillium Web; serif;
+  font-family: 'Titillium Web', serif;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
@@ -130,7 +130,7 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Titillium Web; serif;
+  font-family: 'Titillium Web', serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
